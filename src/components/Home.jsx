@@ -8,7 +8,7 @@ const Home=()=>{
   const navigate=useNavigate();
   return(
   <main className="relative w-full h-screen overflow-hidden flex justify-center mb-[10%]">
-    <video src="src\assets\background.mp4"
+    <video src="public/background.mp4"
     loop
     autoPlay
     muted
