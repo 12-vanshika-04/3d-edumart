@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    body{
-        @apply bg-black text-white relative font-sans h-screen overflow-x-hidden;
-    }
+body {
+  background-color: black;
+  color: white;
+  position: relative;
+  font-family: sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
   
