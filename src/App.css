@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+.logo {
+  font-family: 'Alex Brush', cursive;
+  font-size: 4.5rem; /* Adjust scale based on your absolute positioning */
+  font-weight: 400;
+  line-height: 1;
+  user-select: none;
+  white-space: nowrap;
+}
+
+/* "Edu" styling: Bright white with a soft white glow */
+.logo .edu {
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.5),
+               0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* "Verse" styling: Vibrant violet/purple with a neon glow */
+.logo .verse {
+  color: #7b4eff; /* Vibrant violet matching the image */
+  text-shadow: 0 0 10px rgba(123, 78, 255, 0.6),
+               0 0 20px rgba(123, 78, 255, 0.3);
+  margin-left: -2px; /* Pulls the script letters slightly closer together */
+}

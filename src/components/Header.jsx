@@ -11,7 +11,7 @@ function Header() {
         <div className='flex gap-8'>
       <div className="flex lg:gap-14 gap-4 items-center">
         <Link to="/">
-          <img className="md:w-16 w-12" src="public\3DCreation2.png" alt="logo" />
+          <img className="md:w-16 w-12" src="/3DCreation2.png" alt="logo" />
         </Link>
       </div>
 
