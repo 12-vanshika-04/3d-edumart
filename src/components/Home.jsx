@@ -8,7 +8,7 @@ const Home=()=>{
   const navigate=useNavigate();
   return(
   <main className="relative w-full h-screen overflow-hidden flex justify-center mb-[10%]">
-    <video src="public/background.mp4"
+    <video src="/background.mp4"
     loop
     autoPlay
     muted
@@ -34,7 +34,7 @@ const Home=()=>{
         </button>
         <div className="flex items-center gap-5 text-3xl font-extrabold text-gray-200">
           <img className="md:h-16 h-12"
-          src="src\assets\3DCreation2.png" alt="logo" />VISUALIZE
+          src="/3DCreation2.png" alt="logo" />VISUALIZE
         </div>
         <p className="max-w-[80% text-center text-[#babaff]"></p>
     </div>
