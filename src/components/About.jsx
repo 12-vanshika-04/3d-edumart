@@ -62,7 +62,6 @@ export default function About() {
       </section>
 
       {/* Footer Section */}
-      <Footer/>
     </div>
   );
 }

@@ -13,7 +13,7 @@ function Gallery() {
         <form 
         onSubmit={(e)=>e.preventDefault()}
         className='w-[85%] h-[60pxb] flex items-center px-5 bg-gray-700 rounded-md shadow-md shadow-gray-500 '>
-            {/* <icon ki image ki file/> */}
+            
             <input type="text"
             placeholder='Search Models....'
             className='w-[100%] outline-none text-[20px] items-center bg-gray-700 py-2'
@@ -23,7 +23,6 @@ function Gallery() {
        </div>
        <Topics/>
        <Scroll/>
-       <Footer/>
     </div>
   )
 }

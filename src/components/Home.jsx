@@ -9,13 +9,13 @@ import "../App.css"
 const Home=()=>{
   const navigate=useNavigate();
   return(
-  <main className="relative w-full h-screen overflow-hidden flex justify-center mb-[10%]">
+  <main className="relative w-full min-h-screen overflow-hidden flex justify-center ">
     <video src="/background.mp4"
     loop
     autoPlay
     muted
     playsInline
-    className="w-full h-[95%] object-cover absolute top-0 first-letter:left-0 -z-10"
+    className="w-full h-full object-cover absolute top-0 first-letter:left-0 -z-10"
     ></video>
     <div className="absolute bottom-[15%] flex flex-col items-center gap-5">
       <div class="logo">
